@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-color: #0056b3; /* Substituído por #0056b3 */
+    color: #FFF;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo h1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.logo h2 {
+    font-size: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    font-family: sans-serif;
+    margin: 10px;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.8s;
+}
+
+.link:hover {
+    transition: 0.8s;
+    text-decoration: underline;
+}
+
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 70vh;
+}
+
+.cadastro input {
+    padding: 5px;
+    width: 200px;
+    margin: 10px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: #0056b3; /* Substituído por #0056b3 */
+    padding: 20px;
+    border-radius: 25px;
+    -webkit-box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.75);
+}
+
+.box select {
+    margin: 8px;
+    width: 210px;
+    height: 30px;
+}
+
+.box label {
+    color: #FFF;
+}
+
+.box button {
+    background-color: #FFF;
+    padding: 8px;
+    width: 110px;
+    border: none;
+    margin: 10px;
+}
+
+.cadastro-title {
+    font-size: 20px;
+    color: #FFF;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.main-kanban {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.kanban {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    gap: 20px;
+}
+
+.coluna {
+    background-color: #fff;
+    padding: 20px;
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.coluna h2 {
+    text-align: center;
+    color: #0056b3;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.tarefa {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 5px solid #0056b3;
+    
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.tarefa:hover {
+    transform: translateY(-5px);
+    -webkit-box-shadow: 25px 12px 44px -12px rgba(0,0,0,0.76);
+    -moz-box-shadow: 25px 12px 44px -12px rgba(0,0,0,0.76);
+    box-shadow: 25px 12px 44px -12px rgba(0,0,0,0.76);
+}
+
+.tarefa h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.tarefa p {
+    font-size: 14px;
+    color: #555;
+}
+
+.tarefa p strong {
+    color: #0056b3;
+}
+.gerenciar-button{
+    margin: 5px;
+    background-color: #0056b3;
+    border: none;
+    color: #FFF;
+    border-radius: 5px;
+}
